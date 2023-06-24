@@ -1,67 +1,39 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SICOQ</title>
-    <link rel="shortcut icon" href="pacote-projeto-d010/imagens/favicon.ico" type="image/x-icon">
-
-    <link rel="stylesheet" href="style.css">
+  <title>Portal de Comunicação</title>
 </head>
 <body>
-    <header>
-        <h1>SICOQ</h1>
-        <p>Facilitando a vida de pessoas quilombolas</p>
+  <header>
+    <h1>Bem-vindo ao Portal de Comunicação</h1>
+  </header>
 
-        <nav>
-            <a href="index2.html">Home</a>
-            <a href="#">Forum</a>
-            <a href="#">Votação</a>
-            <a href="#">Projetos</a>
-            <a href="#">Assinatura</a>
-        </nav>
-    </header>
+  <section>
+    <h2>Fórum de Dúvidas e Notícias</h2>
+    <div id="forum-duvidas">
+      <!-- Aqui seriam exibidas as dúvidas e respostas -->
+    </div>
+    <form id="form-duvidas">
+      <label for="pergunta">Faça sua pergunta:</label>
+      <input type="text" id="pergunta">
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
 
-    <main>
-        <h1>Notícias em destaque</h1>
-        <p>Aqui você se informa sobre as principáis noticias em destaque sobre sua região e fica por dentro das novidades</p>
+  <section>
+    <h2>Fórum de Sugestões de Projetos</h2>
+    <div id="forum-sugestoes">
+      <!-- Aqui seriam exibidas as sugestões e discussões -->
+    </div>
+    <form id="form-sugestoes">
+      <label for="sugestao">Compartilhe sua sugestão:</label>
+      <textarea id="sugestao"></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
 
-        <p>
-        <form id="form-duvidas">
-            <label for="pergunta">Não encontrou o que procura? Faça sua pesquisa</label>
-            <input type="text" id="pergunta">
-            <button type="submit">Enviar</button>
-        </form>
-        </p>
-
-        <div class="extra">
-            <h2>Notícia maluca 1</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio ullam laudantium quae id quasi itaque earum, at eius incidunt temporibus vero assumenda maiores a exercitationem dignissimos? Aliquam eaque laborum sint!</p>
-            
-                
-            
-        </div>
-
-        <div class="extra">
-            <h2>Notícia maluca 2</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio ullam laudantium quae id quasi itaque earum, at eius incidunt temporibus vero assumenda maiores a exercitationem dignissimos? Aliquam eaque laborum sint!</p>
-            
-                
-            
-        </div>
-
-        <div class="extra">
-            <h2>Notícia maluca 3</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio ullam laudantium quae id quasi itaque earum, at eius incidunt temporibus vero assumenda maiores a exercitationem dignissimos? Aliquam eaque laborum sint!</p>
-            
-                
-            
-        </div>
-    </main>
-
-    <footer>
-        <p>© 2023 Secretaria de Cultura.</p>
-    </footer>
+  <footer>
+    <p>© 2023 Secretaria de Cultura</p>
+  </footer>
 </body>
 </html>
