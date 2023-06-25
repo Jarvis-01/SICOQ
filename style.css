@@ -25,18 +25,36 @@ body{
     background-color: var(--cor0);
 }
 
+#login{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    background-color: var(--cor-extra);
+}
+
+#login:hover{
+    background-color: var(--cor3);
+    color: var(--cor0);
+    text-decoration: underline;
+}
+
 header{
     background-image: linear-gradient(to bottom, var(--cor0), var(--cor1), var(--cor2), var(--cor3));
     color: white;
     text-align: center;
-    
+    padding-bottom: 10px;
+    max-height: 160px;
 }
 
 header > h1{
     font-family: var(--font-site);
     font-size: 38px;
     margin: 0px;
-    padding-top: 15px;
+    padding-top: 10px;
     padding-bottom: 5px;
 }
 
@@ -59,19 +77,33 @@ nav a, span{
 }
 
 nav > a:hover{
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: var(--cor3);
+    color: var(--cor0);
 }
 
 .botao-escolha{
-    margin: 0px;
+    margin: 0px 10px 0px 0px;
+}
+
+.botao-escolha:hover{
+    background-color: var(--cor3);
+    color: var(--cor0);
+    
 }
 
 .escolha{
     display: none;
 }
 
-.botao-escolha:hover > a{
+.escolha:hover{
+    background-color: var(--cor3);
+    color: var(--cor0);
+}
+
+span:hover > a{
     display: block;
+    background-color: var(--cor3);
+    color: white;
 }
 
 main{
@@ -110,6 +142,15 @@ main > h2{
 p{
     text-indent: 20px;
     padding: 0px 10px 10px 10px;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    width: auto;
+    max-height: 400px;
 }
 
 .extra{
