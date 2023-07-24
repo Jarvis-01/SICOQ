@@ -19,6 +19,10 @@
     --font-titulo: 'Josefin Sans', sans-serif;
 }
 
+*{
+    font-weight: normal;
+}
+
 body{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: 0px;
@@ -56,6 +60,7 @@ header > h1{
     margin: 0px;
     padding-top: 10px;
     padding-bottom: 5px;
+    font-weight: bold;
 }
 
 header > p{
@@ -83,6 +88,7 @@ nav > a:hover{
 
 .botao-escolha{
     margin: 0px 10px 0px 0px;
+    font-weight: bold;
 }
 
 .botao-escolha:hover{
@@ -130,7 +136,7 @@ main > h1, h2{
     margin-left: 10px;
     margin-top: 0px;
     padding-top: 10px;
-    
+    font-weight: bold;
 }
 
 main > h2{
