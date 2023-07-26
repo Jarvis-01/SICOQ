@@ -78,6 +78,10 @@ header > nav{
     background-color: grey;
 }
 
+header > nav > span > p{
+    padding: 0px;
+}
+
 nav a, span{
     text-align: left;
     text-decoration: none;
