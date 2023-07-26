@@ -1,39 +1,80 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-  <title>Portal de Comunicação</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Botão de Login Funcional</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: gray;
+    }
+
+    .login-form {
+      max-width: 300px;
+      margin: 0 auto;
+      padding: 40px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+      background-color: black;
+    background-image: url(imagens/Quilombola.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+    .login-form h2 {
+      text-align: center;
+    }
+
+    .login-form input[type="text"],
+    .login-form input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    .login-form button {
+      width: 100%;
+      padding: 10px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .login-form button:hover {
+      background-color: #0056b3;
+    }
+
+    a{
+      width: 100%;
+      padding: 10px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 13px;
+      text-decoration: none;
+    }
+
+    a:hover{
+      background-color: #0056b3;
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <h1>Bem-vindo ao Portal de Comunicação</h1>
-  </header>
-
-  <section>
-    <h2>Fórum de Dúvidas e Notícias</h2>
-    <div id="forum-duvidas">
-      <!-- Aqui seriam exibidas as dúvidas e respostas -->
-    </div>
-    <form id="form-duvidas">
-      <label for="pergunta">Faça sua pergunta:</label>
-      <input type="text" id="pergunta">
-      <button type="submit">Enviar</button>
+  <div class="login-form">
+    <h2>Login</h2>
+    <form>
+      <input type="text" name="username" placeholder="Usuário" required>
+      <input type="password" name="password" placeholder="Senha" required>
+      <button type="submit">Entrar</button>
     </form>
-  </section>
-
-  <section>
-    <h2>Fórum de Sugestões de Projetos</h2>
-    <div id="forum-sugestoes">
-      <!-- Aqui seriam exibidas as sugestões e discussões -->
-    </div>
-    <form id="form-sugestoes">
-      <label for="sugestao">Compartilhe sua sugestão:</label>
-      <textarea id="sugestao"></textarea>
-      <button type="submit">Enviar</button>
-    </form>
-  </section>
-
-  <footer>
-    <p>© 2023 Secretaria de Cultura</p>
-  </footer>
+    <p><a href="index.html" rel="prev">Voltar</a></p>
+  </div>
 </body>
 </html>
