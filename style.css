@@ -80,6 +80,7 @@ header > nav{
 
 header > nav > span > p{
     padding: 0px;
+    padding-bottom: 1px;
 }
 
 nav a, span{
