@@ -23,6 +23,8 @@
     font-weight: normal;
 }
 
+
+
 body{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: 0px;
@@ -202,6 +204,7 @@ main a:hover{
 p{
     text-indent: 20px;
     padding: 0px 10px 10px 10px;
+    font-weight: normal;
 }
 
 img{
