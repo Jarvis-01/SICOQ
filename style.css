@@ -26,7 +26,7 @@
 body{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: 0px;
-    background-color: grey;
+    background-color: var(--cor0);
 }
 
 #login{
@@ -47,35 +47,37 @@ body{
 }
 
 header{
-    background-color: black;
-    background-image: url(imagens/Quilombola.jpg);
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: cover;
-   
+    background-color: var(--cor0);
+    background-image: url(imagens/logo.png), url(imagens/logo2.png);
+    background-position: left center, right center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain, contain;
+    position: relative;
     color: white;
     
-    padding-bottom: 100px;
+    padding-bottom: 220px;
     max-height: 160px;
-}
 
-header > h1{
-    font-family: var(--font-site);
-    font-size: 38px;
-    margin: 0px;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    font-weight: bold;
-    padding-left: 10px;
-    background-color: grey;
-    width: 28px;
+    min-width: 280px;
+    max-width: 1000px;
+    margin: auto;
 }
 
 header > nav{
     text-align: left;
-    padding-bottom: 5px;
+    
     display: flex;
-    background-color: grey;
+    
+
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--cor3);
+    padding: 10px;
+    text-align: center;
+    height: 20px;
+    width: 97%;
+    padding-right: 0px;
 }
 
 header > nav > span > p{
